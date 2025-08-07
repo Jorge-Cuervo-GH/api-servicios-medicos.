@@ -106,5 +106,6 @@ Durante el desarrollo logré:
 
 En conclusión, el proyecto cumple con los objetivos planteados: ofrecer una API robusta, escalable y segura para la gestión de médicos, pacientes y usuarios dentro de un sistema de servicios médicos.
 
+```
 ✍️ Autor
 Desarrollado por Jorge Cuervo para alura en el curso de spring boot de la especialización en backend.
