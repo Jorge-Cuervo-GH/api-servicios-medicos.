@@ -19,7 +19,7 @@ La aplicación implementa autenticación, validaciones, migraciones de base de d
 ---
 
 ## 📂 Estructura del proyecto
-
+```
 api-servicios-medicos/
 │── .mvn/
 │── src/
@@ -36,7 +36,7 @@ api-servicios-medicos/
 │ │ └── application.properties
 │ └── test/ # Pruebas unitarias
 └── target/
-
+```
 
 ### 📌 Paquetes principales
 
