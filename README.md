@@ -92,21 +92,6 @@ Scripts disponibles en `src/main/resources/db/migration`:
 
 ---
 
-## 📊 Diagrama de Flujo (simplificado)
-
-```mermaid
-flowchart TD
-    A[Cliente] -->|HTTP Request| B[Spring Boot API]
-    B --> C{Autenticación?}
-    C -- Sí --> D[Controladores]
-    C -- No --> E[Error 403]
-    D --> F[Servicios / Lógica de negocio]
-    F --> G[Repositorios JPA]
-    G --> H[(Base de Datos MySQL)]
-    H --> G
-    G --> F
-    F --> D
-    D --> I[HTTP Response]
 
 ## 📝 Conclusiones
 
